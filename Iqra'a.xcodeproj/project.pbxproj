@@ -11,6 +11,10 @@
 		272041262828AEBD00B4FE96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272041252828AEBD00B4FE96 /* ContentView.swift */; };
 		272041282828AEC000B4FE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272041272828AEC000B4FE96 /* Assets.xcassets */; };
 		2720412B2828AEC000B4FE96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2720412A2828AEC000B4FE96 /* Preview Assets.xcassets */; };
+		272041322828C22400B4FE96 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272041312828C22400B4FE96 /* MainScreen.swift */; };
+		272041342828C73200B4FE96 /* Dhikr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272041332828C73200B4FE96 /* Dhikr.swift */; };
+		272041362828D85000B4FE96 /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272041352828D85000B4FE96 /* Names.swift */; };
+		27ACD91C2836D86A009FC624 /* ActionSheetDhikr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ACD91B2836D86A009FC624 /* ActionSheetDhikr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		272041252828AEBD00B4FE96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		272041272828AEC000B4FE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2720412A2828AEC000B4FE96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		272041312828C22400B4FE96 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		272041332828C73200B4FE96 /* Dhikr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhikr.swift; sourceTree = "<group>"; };
+		272041352828D85000B4FE96 /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
+		27ACD91B2836D86A009FC624 /* ActionSheetDhikr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetDhikr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				272041232828AEBD00B4FE96 /* Iqra_aApp.swift */,
+				27ACD91B2836D86A009FC624 /* ActionSheetDhikr.swift */,
+				272041352828D85000B4FE96 /* Names.swift */,
+				272041332828C73200B4FE96 /* Dhikr.swift */,
+				272041312828C22400B4FE96 /* MainScreen.swift */,
 				272041252828AEBD00B4FE96 /* ContentView.swift */,
 				272041272828AEC000B4FE96 /* Assets.xcassets */,
 				272041292828AEC000B4FE96 /* Preview Content */,
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272041362828D85000B4FE96 /* Names.swift in Sources */,
+				272041342828C73200B4FE96 /* Dhikr.swift in Sources */,
+				272041322828C22400B4FE96 /* MainScreen.swift in Sources */,
 				272041262828AEBD00B4FE96 /* ContentView.swift in Sources */,
+				27ACD91C2836D86A009FC624 /* ActionSheetDhikr.swift in Sources */,
 				272041242828AEBD00B4FE96 /* Iqra_aApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
